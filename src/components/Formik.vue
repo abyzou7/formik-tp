@@ -15,6 +15,7 @@
     <!-- Submit button display -->
     <br/>
     <button type="submit" :disabled="isSubmitting">Submit</button>
+    <!-- -->
   </form>
 </template>
 

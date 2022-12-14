@@ -26,6 +26,7 @@ export default {
       if (!values.email) {
         errors.email = 'Email is required';
       } else if (
+        // Check the pattern of the email
         !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
       ) {
         errors.email = 'Incorrect email format';
